@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#hero {
+    background: #F8F8F8;
+    padding: 100px 0;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+
+
+    
+}
+
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.text-content span {
+    font-size: 24px;
+    color: var(--, #161515);
+    font-weight: 300;
+}
+
+.text-content h1 {
+    color: #272727;
+    width: 877px;
+    height: 215px;
+    font-size: 250px;
+    font-weight: 300px;
+}
+
+.text-content p {
+    font-size: 32px;
+    font-weight: 300;
+    color:  #161515;
+    max-width: 575px;
+    line-height: 155%; /* 49.6px */;
+    margin-top: 48px;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 70px;
+}
+
+.buttons button {
+    padding: 30px 72px;
+    font-size: 32px;
+    font-weight: 300;
+    border: none;
+    cursor: pointer;
+}
+
+.black {
+    background:  #161515;
+    color: white;
+    transition: background-color 0.3s linear;
+}
+
+.black:hover {
+    background-color: #4a4848;
+}
+
+.white {
+    padding: 30px 27px !important;
+    transition: background-color 0.3s linear;
+    transition: color 0.3s linear;
+}
+
+.white:hover {
+    background-color: #2c2929;
+    color: white;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section h3 {
+    color: #000;
+font-size: 24px;
+font-weight: 300;
+}
+
+.section h1 {
+    color: #000;
+font-size: 72px;
+font-weight: 400;
+margin-bottom: 40px;
+
+}
+
+.section-img {
+    width: 417px;
+height: 630px;
+background: #F8F8F8;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 35px;
+}
+
+.section h2 {
+    color: #000;
+font-size: 32px;
+font-weight: 400;
+margin-bottom: 25px;
+font-weight: 800;
+margin: 30px 0;
+}
+
+.section p {
+    color: var(--, #161515);
+font-size: 32px;
+font-weight: 300;
+line-height: 155%; /* 49.6px */
+margin-bottom: 50px;
+margin: 20px 0;
+}
+
+.section p span {
+    color: #BB8B5D;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.line {
+    width: 178.025px;
+height: 1px;
+background: #707070;
+margin-bottom: 40px;
+}
