@@ -1,0 +1,185 @@
+@media (max-width: 1200px) {
+
+    .hero-content img {
+        margin-left: -40px;
+    }
+
+    .section {
+        margin-left: 150px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .text-content span {
+        font-size: 20px;
+    }
+
+    .text-content h1 {
+        font-size: 220px;
+    }
+
+    .text-content p {
+        font-size: 28px;
+    }
+
+}
+
+
+@media (max-width: 980px) {
+    .section {
+        margin-left: 240px;
+    }
+}
+
+@media (max-width: 940px) {
+    .section {
+        margin-left: 300px;
+    }
+}
+
+@media (max-width: 890px) {
+    .section {
+        margin-left: 350px;
+    }
+}
+
+@media (max-width: 800px) {
+    .section {
+        margin-left: 450px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section {
+        margin-left: 530px;
+    }
+
+    .section p {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 675px) {
+    .section {
+        margin-left: 600px;
+    }
+
+    .section p {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .text-content h1 {
+        font-size: 100px;
+    }
+
+    .hero-content p {
+        margin-top: 400px;
+        font-size: 18px;
+        font-weight: 800;
+        text-align: center;
+        margin-left: -100px;
+    }
+
+    .content-img img {
+        width: 200px;
+        height: 340px;
+        margin-top: 200px;
+        margin-left: -780px;
+    }
+
+    .buttons button {
+        padding: 15px 38px;
+        font-size: 22px;
+        font-weight: 300;
+        border: none;
+        cursor: pointer;
+    }
+
+    .buttons {
+        margin-left: 40px;
+    }
+
+    .section {
+        margin-left: 0;
+    }
+
+    .section img {
+        width: 270px;
+        height: 460px;
+        background: none;
+    }
+    .container {
+        max-width: 480px;
+    }
+
+
+}
+
+@media (max-width: 400px) {
+    .hero-content p {
+        margin-left: -140px;
+    }
+
+    .section img {
+        margin-left: 27px;
+    }
+
+    .content-img img {
+        margin-left: -830px;
+    }
+
+    .buttons {
+        margin-left: 0px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .text-content h1 {
+        font-size: 100px;
+    }
+
+    .hero-content p {
+        margin-top: 400px;
+        font-size: 18px;
+        font-weight: 800;
+        text-align: center;
+        margin-left: -140px;
+    }
+
+    .content-img img {
+        width: 190px;
+        height: 330px;
+        margin-top: 200px;
+        margin-left: -840px;
+    }
+
+    .buttons button {
+        padding: 10px 24px;
+        font-size: 22px;
+        font-weight: 300;
+        border: none;
+        cursor: pointer;
+    }
+    .buttons {
+        margin-left: 10px;
+    }
+
+    .section {
+        margin-left: 0;
+    }
+
+    .section img {
+        width: 250px;
+        height: 440px;
+        background: none;
+        margin-left: 20px;
+    }
+    .container {
+        max-width: 480px;
+    }
+}
